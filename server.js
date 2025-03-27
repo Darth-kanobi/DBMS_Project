@@ -28,6 +28,7 @@ const flightRoutes = require("./routes/flightRoutes");
 // Use routes
 app.use("/api/auth", authRoutes);
 app.use("/api/flights", flightRoutes);
+app.use("/api", flightRoutes); 
 
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
