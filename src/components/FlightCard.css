@@ -1,0 +1,31 @@
+.flight-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-left: 4px solid #C2A878;
+  }
+  
+  .flight-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .airline {
+    font-weight: 600;
+    color: #002366;
+  }
+  
+  .book-button {
+    background: linear-gradient(to right, #C2A878, #A78A5F);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+  }

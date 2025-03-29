@@ -1,0 +1,20 @@
+.flights-page {
+    padding: 40px 5%;
+  }
+  
+  .page-header {
+    margin-bottom: 40px;
+  }
+  
+  .search-container {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  
+  .flights-list {
+    display: grid;
+    gap: 20px;
+  }
